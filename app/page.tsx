@@ -2,7 +2,7 @@ import Link from "next/link";
 import { Button } from "../components/ui/button";
 import Header from "@/components/Header";
 import getData from "../lib/query";
-import { client, urlFor } from "../lib/sanity";
+import { urlFor } from "../lib/sanity";
 import { blogCard } from "@/lib/interface";
 import { Card } from "@/components/ui/card";
 import Image from "next/image";
