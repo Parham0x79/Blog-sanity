@@ -122,9 +122,18 @@
 }
 
 .width {
-  @apply w-11/12 sm:max-w-11/12 lg:max-w-3/4 xl:max-w-2/3 mx-auto;
+  @apply w-11/12 sm:max-w-11/12 lg:max-w-3/4 xl:max-w-2/3 mx-auto p-5 my-5;
 }
 
 .button {
-  @apply hover:cursor-pointer text-lg hover:font-bold;
+  @apply hover:cursor-pointer text-lg hover:font-bold active:opacity-50;
+}
+
+.card {
+  @apply shadow-md dark:hover:border-blue-300 transition
+   cursor-pointer hover:border-emerald-600;
+}
+
+.img {
+  @apply object-fill mx-auto rounded-xl shadow-sm;
 }
