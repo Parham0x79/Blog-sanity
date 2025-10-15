@@ -18,15 +18,15 @@ const Header = () => {
       </h1>
 
       <div className="flex flex-row justify-evenly w-xl items-center">
-        <Button variant={"link"} className="button">
+        <Button variant={"link"} className="button hidden">
           <Link href={"/sign-in"}>Sign In</Link>
         </Button>
 
-        <Button variant={"link"} className="button">
+        <Button variant={"link"} className="button hidden">
           <Link href={"/sign-in"}>Sign In</Link>
         </Button>
 
-        <Button variant={"link"} className="button">
+        <Button variant={"link"} className="button hidden">
           <Link href={"/sign-in"}>Sign In</Link>
         </Button>
       </div>
