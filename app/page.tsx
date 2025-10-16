@@ -7,6 +7,7 @@ import { blogCard } from "@/lib/interface";
 import { Card } from "@/components/ui/card";
 import Image from "next/image";
 
+export const revalidate = 30;
 
 const Home = async () => {
   const data: blogCard[] = await getData();
