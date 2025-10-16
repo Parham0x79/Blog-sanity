@@ -9,6 +9,8 @@ import { blogCard } from "@/lib/interface";
 import { PortableText } from "next-sanity";
 import { notFound } from "next/navigation";
 
+export const revalidate = 30;
+
 const blogArticle = async ({ params }: { params: { slug: string } }) => {
   const data: blogCard = await getBlog(params.slug);
 
