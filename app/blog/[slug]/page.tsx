@@ -45,7 +45,7 @@ const blogArticle = async ({ params }: { params: { slug: string } }) => {
         />
 
         <div
-          className="p-5 prose md:prose-lg xl:prose-xl dark:prose-invert
+          className="p-5 mx-auto prose md:prose-lg xl:prose-xl dark:prose-invert
            prose-li:marker:text-emerald-600 dark:prose-li:marker:text-blue-300"
         >
           {data.content && <PortableText value={data.content} />}
