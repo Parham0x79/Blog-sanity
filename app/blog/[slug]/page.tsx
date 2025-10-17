@@ -18,7 +18,7 @@ const blogArticle = async ({ params }: { params: { slug: string } }) => {
 
   return (
     <>
-      <Card className="width">
+      <Card className="width p-2">
         <div className="flex justify-between w-11/12 mx-auto items-center">
           <span
             className="font-light text-sm hover:cursor-pointer
