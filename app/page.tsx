@@ -20,7 +20,7 @@ const Home = async () => {
         <div className="flex flex-col md:grid grid-cols-2 p-2 gap-4">
           {data.map((blog, id) => (
             <Card
-              className="text-center card flex flex-col justify-between"
+              className="text-center p-2 card flex flex-col justify-between"
               key={id}
             >
               <h2 className="border-b-2 min-h-15 px-5 pb-2 text-xl font-bold font-sans">
